@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: helvetica;
+}
+nav{
+    width: 100%;
+    padding: 10px;
+    background-color: #0E141E;
+    display: flex;
+}
+.navigation1{
+    width: 15%;
+    margin-left: 4%;
+    padding: 10px;
+
+}
+.navigation1 > h1{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(228, 241, 243);
+    object-position: center;
+}
+.nav2{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav2 > span{
+    color: rgb(192, 216, 238);
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav2 > span {
+    color: rgb(128, 143, 150);
+    transition: 0.5;
+
+}
+.nav2 > span:hover{
+    color: rgb(224, 233, 233);
+}
+.nav3{
+    width: 35%;
+    padding: 10px;
+}
+.nav3 > button{
+    padding: 1px 85px;
+    display: flex;
+    border: 1px solid rgb(230, 221, 221);
+    border-radius: 2px;
+    margin-left: 40%;
+    position: relative;
+    background-color: #39424E;
+}
+.nav3 > button > i{
+    font-size: 20px;
+    margin-left: -30%;
+    margin-top: 3px;
+    font-weight:100;
+    color: rgb(223, 230, 233);
+    position: absolute;
+}
+.nav3 > button > h1{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 5px;
+    margin-left: -49%;
+    color: rgb(155, 188, 218);
+}
+.nav4{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: -2%;
+    color: gray;
+}
+.user{
+    background-color: rgb(203, 211, 211);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding: 5px;
+    border-radius: 50%;
+}
+.user > i{
+    object-fit: cover;
+    object-position: center;
+    margin-right: 10px;
+}
+.continer{
+    height: 90%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+}
+.left{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+.box1{
+    width: 85%;
+    height: 40%;
+    position: absolute;
+    background-color: #121418;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    top: 5%;
+    left: 10%;
+}
+.box1 > img{
+    width: 80px;
+    height: 80px;
+    margin: 30px 50px;
+    border: 3px solid blue;
+    border-radius: 50%;
+}
+#edit1{
+    margin:  55px 200px;
+    position: absolute;
+    color: rgb(216, 204, 204);
+}
+.box1 > h1 {
+    margin-left: 40px;
+    color: rgb(241, 229, 229);
+}
+
+.box1 > h2{
+    margin-left: 40px;
+    font-size: 15px;
+    color: rgb(241, 229, 229);
+    margin-top: -19px;
+}
+.india{
+    position: absolute;
+    background-color: black;
+    width: 9%;
+    left: 65%;
+    top: -10%;
+    position: relative;
+    overflow: hidden;
+    height: 10%;
+}
+.india > img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.box2{
+    width: 85%;
+    height: 40%;
+    position: absolute;
+    background-color: #121418;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid  #dadada;
+    top: 10%;
+    left: 10%;
+}
+.box2 > h1 {
+    margin-left: 40px;
+    color: rgb(241, 229, 229);
+    font-size: 20px;
+    margin-top: 20px;
+}
+#edit2{
+    margin:  55px 380px;
+    position: absolute;
+    color: rgb(216, 204, 204);
+}
+.box2 > h2{
+    margin-left: 70px;
+    font-size: 15px;
+    color: rgb(241, 229, 229);
+    margin-top: 29px;
+    font-weight: 100;
+}
+#bag{
+    color: rgb(187, 205, 241);
+    position: absolute;
+    top: 32%;
+    font-size: 18px;
+    left: 9%;
+}
+.box2 > h3{
+    margin-left: 70px;
+    font-size: 15px;
+    color: rgb(241, 229, 229);
+    margin-top: 25px;
+    font-weight: 100;
+}
+.box2 > h4{
+    margin-left: 70px;
+    font-size: 15px;
+    color: rgb(241, 229, 229);
+    margin-top: 20px;
+    font-weight: 100;
+}
+#call{
+    color: rgb(181, 206, 230);
+    position: absolute;
+    top: 49%;
+    font-size: 18px;
+    left: 9%;
+}
+#location{
+    color: rgb(185, 217, 231);
+    position: absolute;
+    top: 65%;
+    left: 9%;
+    font-weight: 100;
+    font-size: 19px;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    position: relative;
+}
+.fri{
+    width: 90%;
+    height: 45%;
+    margin: 30px 10px;
+    border: .5px solid white;
+    border-radius: 10px;
+    display: flex;
+    background-color: #121418;
+}
+#badge{
+    font-size: 20px;
+    color: white;
+    margin: 20px 50px;
+}
+.fri > h1{
+    color: white;
+    font-size: 20px;
+    margin: 20px -35px;
+}
+.badges1{
+    width: 25%;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    height: 80%;
+    background-color: #FFBBA1;
+}
+.badges3{
+    width: 25%;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    height: 80%;
+    background-color: #FFBBA1;
+}
+.badges2{
+    width: 25%;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    height: 80%;
+    background-color: #f0d911;
+}
+.content{
+    width: 60%;
+    justify-content: space-around;
+    display: flex;
+    height: 60%;
+    display: flex;
+    margin: 80px -100px;
+}
+.badges1 > img{
+    width: 30px;
+    height: 30px;
+    margin: 19px 40px;
+    display: flex;
+    font-size: 30px;
+    color: black
+}
+.badges1 > h1{
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: -9px;
+}
+.badges1 > h2{
+    margin: -5px 50px;
+}
+.badges2 > img{
+    width: 30px;
+    height: 30px;
+    margin: 19px 40px;
+    display: flex;
+    font-size: 30px;
+    color: black
+}
+.badges2 > h1{
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: -9px;
+}
+.badges2 > h2{
+    margin: 5px 30px;
+}
+.badges3 > img{
+    width: 30px;
+    height: 30px;
+    margin: 19px 40px;
+    display: flex;
+    font-size: 30px;
+    color: black
+}
+.badges3 > h1{
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-left: 13px;
+    margin-top: -9px;
+}
+.badges3 > h2{
+    margin: 5px 50px;
+}
+.frist{
+    width: 90%;
+    height: 20%;
+    margin: 30px 10px;
+    border: .5px solid white;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    background-color: #121418;
+}
+.frist > i{
+    font-size: 25px;
+    font-weight: 100;
+    margin: 20px 50px;
+}
+.frist > h1{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px -35px;
+}
+.frist > p{
+    font-size: 13px;
+    font-weight: 100;
+    color: gray;
+    margin: 59px -148px;
+}
+.fris{
+    width: 90%;
+    height: 18%;
+    color: white;
+    margin: 30px 10px;
+    border: .5px solid white;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    background-color: #121418;
+}
+.fris > i{
+    font-size: 25px;
+    margin: 20px 50px;
+}
+.fris > h1{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px -35px;
+}
+.fris > p{
+    font-size: 13px;
+    font-weight: 100;
+    color: gray;
+    margin: 59px -148px;
+}
+.fris > a{
+    color: rgb(31, 102, 233);
+    top: 30%;
+    left: 73%;
+    position: absolute;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 13px;
+}
